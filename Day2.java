@@ -18,10 +18,6 @@ public class Day2 {
         int counter = 0;
 
         while (line != null) {
-            boolean ok = true;
-            boolean descending = false;
-            boolean ascending = false;
-
             // Splitting the input line by whitespace
             ArrayList<String> nums = new ArrayList<String>(Arrays.asList(line.split(" ")));
 
@@ -39,10 +35,6 @@ public class Day2 {
         int counter = 0;
 
         while (line != null) {
-            boolean ok = true;
-            boolean descending = false;
-            boolean ascending = false;
-
             ArrayList<String> nums = new ArrayList<String>(Arrays.asList(line.split(" ")));
 
             if (isSafe(nums)) {
